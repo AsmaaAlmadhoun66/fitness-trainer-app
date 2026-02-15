@@ -1,0 +1,172 @@
+/*
+this file represent Global Style.
+
+*/
+body , a , h1 , h2 , h3 , h4 , h5 , p   , * {
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none !important;
+}
+.btn-primary {
+  background-color: #122027 !important;
+  color:#fff;
+  border-radius: 50px !important;
+  width: 100% !important;
+  border:none !important;
+  font-size: 18px !important;
+  outline: none !important;
+  box-shadow: none !important;
+  padding: 10px 10px !important;
+}
+.btn-secondary {
+  background-color: #00a4f8 !important;
+  color:#fff;
+  border-radius: 50px !important;
+  width: 100% !important;
+  border:none !important;
+  font-size: 15px !important;
+  outline: none !important;
+  box-shadow: none !important;
+  padding: 8px 10px !important;
+}
+.round {
+  position: relative;
+}
+
+.round label {
+  background-color: #fff;
+  padding: 2px;
+  border: 2px solid #00a4f8;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+.round label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 4px;
+  opacity: 0;
+  position: absolute;
+  top: 6px;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+
+.round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+  background-color: #00a4f8;
+  border-color: #00a4f8;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+.checbox-lable {
+  margin: 0 20px;
+  color:#8c99a5;
+  /*font-weight: 600;*/
+}
+
+
+.error-input {
+  border-color: #ef4b4b !important;
+}
+.error-title {
+  color:#ef4b4b !important;
+}
+
+/*
+ RTL STYLE
+*/
+body.rtl  {
+  direction: rtl;
+  text-align: right;
+}
+
+body.rtl form {
+  text-align: right;
+}
+
+body.rtl .round label {
+  background-color: #fff;
+  padding: 2px;
+  border: 2px solid #00a4f8;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 25px;
+  right: 0;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+body.rtl ,body.rtl a , body.rtl h1 ,body.rtl h2 ,body.rtl h3 ,body.rtl h4 ,body.rtl h5 ,body.rtl p   ,body.rtl * {
+  font-family: 'Almarai', sans-serif;
+}
+
+
+.modals.dimmer .ui.scrolling.modal {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+ul {
+  list-style: none;
+}
+
+
+.pusher {
+  height: 100% !important;
+  overflow-y: auto !important ;
+  scroll-behavior: auto;
+}
+
+
+
+.plugin-select .css-yk16xz-control {
+  border-radius: 50px !important;
+  border: 1px solid #8c99a5;
+  padding: 3px;
+  outline: none;
+  box-shadow: none !important;
+}
+
+.plugin-select .css-1pahdxg-control {
+  border-radius: 50px !important;
+  border: 1px solid #8c99a5;
+  padding: 3px;
+
+}
+
+.p-bottom{
+  bottom: -45px;
+}
+.f-3{
+  font-size: 3rem;
+}
+.f-2{
+  font-size: 2rem;
+}
+.f-5-half{
+  font-size: 2.5rem;
+}
+.f-1-half{
+  font-size: 0.5rem;
+}
+.w-1{
+  width: 2.9rem;
+}
