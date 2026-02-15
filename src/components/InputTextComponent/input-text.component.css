@@ -1,0 +1,18 @@
+.app-primary-input input {
+    border-radius: 50px !important;
+    border:1px solid #8c99a5;
+    padding: 20px 10px;
+    outline: none;
+    box-shadow: none !important;
+}
+.app-primary-input textarea {
+    border-radius: 20px;
+    border:1px solid #8c99a5;
+    padding: 20px 10px;
+    outline: none;
+    box-shadow: none !important;
+}
+.app-primary-input label {
+    color: #8c99a5;
+
+}

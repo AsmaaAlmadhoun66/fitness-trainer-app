@@ -1,0 +1,21 @@
+.setting .ui.selection {
+    border-radius: 50px;
+    border: none;
+    padding: 17px;
+}
+
+.setting .ui.selection.active.dropdown {
+    border-radius: 0;
+}
+
+.setting .strip {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 30px;
+}
+.setting .strip .title {
+    color: #8c99a5;
+    font-size: 15px;
+    font-weight: 600;
+}

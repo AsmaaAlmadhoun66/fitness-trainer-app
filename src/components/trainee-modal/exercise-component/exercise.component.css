@@ -1,0 +1,34 @@
+ul.data {
+    padding: 0;
+}
+ul.data li  {
+    margin: 2px 0;
+
+}
+ul.data li h5 {
+    font-size: 16px;
+}
+
+ul.data li span {
+    color: #00a4f8 !important;
+}
+
+.icons .icon {
+    width: 35px;
+    height: 35px;
+    background-color: rgba(140,153,165,0.1);
+    text-align: center;
+    line-height: 35px;
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.icons .delete {
+    background-color: #e36661;
+    color:#fff;
+}
+.custom-item{
+    border-radius: 50% !important;
+}

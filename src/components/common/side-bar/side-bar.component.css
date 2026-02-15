@@ -1,0 +1,51 @@
+.ui.inverted.menu {
+    background-color: #122027 !important;
+    height: 100vh !important;
+}
+.ui.vertical.inverted.menu .item:before {
+    display: none;
+}
+.ui.labeled.icon.menu .item {
+    display: flex !important;
+    flex-direction : row !important;
+    align-items: center;
+    border: none !important;
+}
+
+.ui.labeled.icon.menu .item  .icon , .ui.labeled.icon.menu .item>.icon:not(.dropdown) {
+    margin: 0 15px !important;
+}
+.ui.labeled.icon.menu .item:last-child {
+    display: flex !important;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.ui.labeled.icon.menu .item {
+    padding: 25px;
+}
+
+.ui.segment.pushable {
+    height: 100vh !important;
+}
+.ui.segment {
+    border: none !important;
+    box-shadow: none !important;
+}
+.ui.grid>.column:not(.row), .ui.grid>.row>.column {
+    padding-bottom: 0 !important;
+}
+.ui.visible.wide.right.sidebar~.pusher {
+    /*transform: none !important;*/
+}
+.ui.grid .column {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.pusher {
+    width: calc(100% - 350px) !important;
+    background-color: rgba(140,153,165,0.1) !important;
+}

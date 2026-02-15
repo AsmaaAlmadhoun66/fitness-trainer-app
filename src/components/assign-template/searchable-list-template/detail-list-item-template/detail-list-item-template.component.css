@@ -1,0 +1,9 @@
+﻿
+.detail-list .input{
+    margin: 1rem 0;
+    width: 50%;
+    display: inline-flex;
+}
+.detail-list img{
+    max-height: 200px;
+}

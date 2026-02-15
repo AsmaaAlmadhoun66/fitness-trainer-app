@@ -1,0 +1,79 @@
+.template-card {
+    position: relative;
+}
+
+.template-card .delete-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: #c1272d;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    line-height: 30px;
+    position: absolute;
+    right: 20px;
+    top: -10px;
+    cursor: pointer;
+}
+
+.template-card .content {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+.template-card .content .ico {
+    text-align: center;
+}
+.template-card .content .ico img {
+    width: 35px;
+}
+
+.template-card .content .temp-name {
+    margin: 15px 0;
+    text-align: center;
+    font-size: 15px;
+}
+.template-card .content .action button {
+    background-color: #00a4f8 !important;
+    width: 100%;
+    border-radius: 8px;
+    color: #fff ;
+    font-size: 15px;
+    transition: all 0.4s ease-in-out;
+}
+.template-card .content .action button:hover {
+    background-color: #122027 !important;
+}
+.modal-title{
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-radius: 20px;
+    padding: 8px;
+    text-align: center;
+}
+.modal-title-date{
+    background-color: #f4f4f4;
+    text-align: center;
+    color: gray;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.card-custom{
+    background-color: #f4f4f4;
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    color: black;
+    height: 140px;
+    overflow: hidden;
+}
+.card-custom:hover{
+    background-color: #BBECFF;
+    color: black;
+}
+

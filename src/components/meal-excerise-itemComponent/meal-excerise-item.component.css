@@ -1,0 +1,12 @@
+.img-thumbnail{
+    height: 250px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 18px;
+}
+.img-thumbnail img{
+    /*height: 100%;*/
+}
+textarea{
+    resize: none;
+}

@@ -1,0 +1,124 @@
+
+
+.dates {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+}
+.dates .date {
+    background-color: rgba(140,153,165,0.1);
+    padding: 15px;
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: 400;
+    /*margin: 0 10px;*/
+}
+
+.dates .date.active {
+    background-color: #00a4f8;
+    color: #fff !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #00a4f8 !important;
+    font-size: 26px !important;
+}
+.slick-next {
+    right: 8px !important;
+}
+.slick-prev {
+    left: -18px !important;
+}
+.ui.secondary.menu {
+    background-color: rgba(140,153,165,0.1) !important;
+    border-radius:50px !important ;
+}
+.ui.secondary.menu .item {
+
+    margin: 0 !important;
+    width: 50%;
+    text-align: center !important;
+    display: block;
+    padding: 15px 0;
+    font-size: 16px;
+}
+.ui.secondary.menu .item:hover  {
+    border-radius:50px !important ;
+    transition: all 0.4s ease-in-out;
+
+}
+.ui.secondary.menu .active.item {
+    background-color:  #00a4f8 !important;
+    color: #fff !important;
+    border-radius:50px !important ;
+
+}
+.ui.modal {
+    background: transparent;
+    border-radius: 10px !important;
+}
+.ui.modal .content ,.ui.modal>.actions {
+    border-radius: 0 !important;
+}
+.ui.modal>.actions .card-foot{
+    background-color: #122027;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.card-foot .user-img {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 60px;
+}
+.card-foot .user-img img {
+    width: 60px;
+}
+.card-foot .user-info {
+    margin: 7px 15px;
+}
+.card-foot .user-info h5 {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+.card-foot .user-info span {
+    color: #fff;
+    font-weight: 100;
+
+
+}
+.card-foot .actions {
+    line-height: 60px;
+}
+.card-foot .actions div {
+    margin: 0 7px;
+}
+.card-foot .actions button{
+    background-color: #00a4f8 !important;
+    font-size: 14px !important;
+    padding: 8px 15px !important;
+
+}
+
+.card-foot .actions button.btn-secondary-small-rounded {
+    background-color: #ffffff !important;
+    color: #333;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    padding: 0!important;
+}
+
+.ui.message.custom-message {
+    background: #ececec;
+    border-radius: 1rem;
+    box-shadow: 0 0 0 0 rgb(34 36 38 / 22%) inset, 0 0 0 0 transparent;
+}

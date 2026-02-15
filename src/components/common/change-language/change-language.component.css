@@ -1,0 +1,6 @@
+.ui.dropdown .menu>.item {
+    text-align: right !important;
+}
+.ui.dropdown>.dropdown.icon:before {
+    display: none;
+}

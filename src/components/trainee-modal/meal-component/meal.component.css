@@ -1,0 +1,77 @@
+.meal h5 {
+    font-weight: 600;
+}
+
+.meal .images {
+    display: flex;
+}
+.meal .images span {
+    margin: 0 5px;
+    width: 80px;
+    height: 50px;
+    overflow: hidden;
+
+    text-align: center;
+    display: flex;
+}
+
+.meal .images span img {
+    width: 80px;
+}
+
+.meal .btn-full-width {
+    background-color: #5798f4 !important;
+    width: 100%;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 7px;
+    font-size: 15px;
+    box-shadow: none !important;
+}
+
+.meal .btn-full-width:hover {
+    background-color: #122027 !important;
+}
+
+.meal .key {
+    color: #00a4f8;
+}
+.meal .strip-title {
+    font-size: 13px;
+}
+.meal .stripe {
+    display: flex;
+    font-size: 11px;
+    color: #fff !important;
+    padding: 3px;
+    border-radius: 20px;
+    margin:0 10px;
+}
+.meal .stripe.grey {
+    background-color: #8c99a5;
+}
+.meal .stripe.primary-color {
+    background-color: #00a4f8;
+}
+.meal .stripe div {
+    margin: 0 5px;
+}
+.meal .stripe div .key {
+    color :#fff;
+}
+.meal .meal-buttons button {
+    border-radius: 10px;
+    margin: 0 7px;
+}
+.meal .meal-buttons .primary-color {
+    background-color: #00a4f8;
+    color: #fff;
+}
+
+.meal .meal-buttons .danger-color {
+    background-color: #ee6d52;
+    color: #ffffff;
+}
+.meal .meal-buttons svg {
+    font-size: 2rem;
+}

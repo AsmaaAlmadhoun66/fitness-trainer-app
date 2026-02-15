@@ -1,0 +1,16 @@
+.centerIcon{
+    position: absolute;
+    z-index: 55;
+    top: 0;
+    bottom: 0;
+    width: 80px;
+    height: 90px;
+    margin: auto;
+    right: 0;
+    left: 0;
+}
+.centerIcon svg{
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 1rem;
+}

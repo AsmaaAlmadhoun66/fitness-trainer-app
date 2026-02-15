@@ -1,0 +1,15 @@
+.phone-input .PhoneInput {
+    border-radius: 50px !important;
+    border: 1px solid #8c99a5;
+    padding: 9px;
+    outline: none;
+    box-shadow: none !important;
+}
+.phone-input .PhoneInputInput {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.phone-input label {
+    color: #8c99a5;
+}

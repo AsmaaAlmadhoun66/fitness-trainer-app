@@ -1,0 +1,29 @@
+.profile-data {
+    display: flex;
+    align-items: center;
+}
+.profile-data .user-img {
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*background-color: #dbdbdb;*/
+}
+/*.profile-data .user-img img {*/
+/*  transform: translate(4px , 1px);*/
+/*}*/
+
+.profile-data .user-data .name a{
+    color: #122027;
+    font-weight: 600;
+}
+.profile-data .user-data .name a:hover {
+    color: #00a4f8;
+}
+
+ .profile-data .user-data  span {
+    color:#8c99a5 ;
+ }

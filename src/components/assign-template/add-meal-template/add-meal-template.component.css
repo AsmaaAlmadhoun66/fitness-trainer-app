@@ -1,0 +1,23 @@
+﻿.AddMealTemplateComponent .meal-buttons button {
+    border-radius: 10px;
+    margin: 0 7px;
+}
+.AddMealTemplateComponent .meal-buttons .primary-color {
+    background-color: #00a4f8;
+    color: #fff;
+}
+
+.AddMealTemplateComponent .meal-buttons .danger-color {
+    background-color: #ee6d52;
+    color: #ffffff;
+}
+.mini-shared-modal .form-control{
+    background-color: #F4F6F8;
+    /*color: #C4C9CD;*/
+    padding: 10px;
+    /*text-align: center;*/
+    border: none !important;
+}
+.mini-shared-modal .form-control:focus {
+    background-color: #F4F6F8;
+}

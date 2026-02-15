@@ -1,0 +1,27 @@
+.chat-user-item-card {
+    background-color: #fafbfb;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-user-item-card .user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.chat-user-item-card .user-avatar img {
+    width: 50px;
+    height: 50px;
+}
+
+.chat-user-item-card .user-info .online {
+    color :#39b54a;
+}
+.chat-user-item-card .user-info .offline {
+    color:#ee6d52;
+}

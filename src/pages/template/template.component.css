@@ -1,0 +1,47 @@
+.add-template {
+    padding: 30px;
+}
+.add-template .title span {
+    color: red;
+}
+.add-template .title span img {
+    width: 40px;
+}
+
+.add-template .title strong {
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.add-template .form-group input {
+    background-color: #f3f5f6;
+    border: none;
+}
+
+.add-template .form-group button {
+    width: auto !important;
+    font-size: 14px !important;
+    margin:  0 10px;
+    padding: 10px 30px !important;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.add-template .form-group button.btn-secondary {
+    background-color: #8c99a5 !important;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.add-template .form-group button.btn-primary {
+    background-color: #00a4f8 !important;
+
+}
+.add-template .form-group button.btn-primary:hover {
+    background-color: #122027 !important;
+}
+
+.add-template .form-group button.btn-secondary:hover {
+    background-color: #fff !important;
+    color: #122027;
+}

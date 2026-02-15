@@ -1,0 +1,23 @@
+.ui.card.card-custom, .ui.cards>.card.card-custom{
+    box-shadow: rgba(149, 157, 165, 0.2) 0 7px 20px;
+    border-radius: 1.5rem;
+}
+.ui.card.card-custom>.image, .ui.cards>.card.card-custom>.image {
+    padding: 1rem;
+    background-color: transparent;
+    width: 85px;
+    height: 85px;
+    border-radius: 50% !important;
+    overflow: hidden;
+    margin: auto;
+}
+.ui.card.card-custom>.content, .ui.cards>.card.card-custom>.content{
+    border-top: none;
+    padding: 0.5em 0.6em;
+}
+.tab-custom .ui.secondary.menu, .tab-custom .ui.segment{
+    background-color: transparent;
+}
+.ui.card.card-custom>.extra, .ui.cards>.card.card-custom>.extra{
+    padding: 0.5em 0.6em;
+}

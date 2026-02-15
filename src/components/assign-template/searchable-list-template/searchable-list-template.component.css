@@ -1,0 +1,51 @@
+﻿.SearchableListTemplateComponent-withImg {
+    padding: 20px;
+}
+.SearchableListTemplateComponent-withImg ul li .item {
+    display: grid;
+    grid-template-columns:  12% 88%;
+    grid-template-rows: 20% 80%;
+    grid-gap: 0.3rem;
+    margin: 0.2rem 0;
+}
+.SearchableListTemplateComponent-withImg span:nth-child(2){
+    /*grid-row: 2/3;*/
+}
+.SearchableListTemplateComponent-withImg span:nth-child(1){
+    grid-row: span 2;
+}
+.SearchableListTemplateComponent-withImg span img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+.SearchableListTemplateComponent-withImg span {
+    justify-content: center;
+    font-weight: bolder;
+}
+.SearchableListTemplateComponent-withImg ul,.SearchableListTemplateComponent ul{
+    padding: 0;
+}
+.SearchableListTemplateComponent-withImg ul li, .SearchableListTemplateComponent ul li{
+    margin: 0.7rem 0;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+}
+.SearchableListTemplateComponent-withImg .input,.SearchableListTemplateComponent .input{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.rtl .ui.input>input{
+    text-align: right;
+}
+.rtl .ui.icon.input>i.icon{
+    right: auto;
+    left: 0;
+}
+.rtl .ui.icon.input>input {
+    padding-left: 2.67142857em!important;
+    padding-right: 1em!important;
+}
+.rtl ul {
+    text-align: right;
+}

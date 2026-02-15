@@ -1,0 +1,19 @@
+.progressComponent{
+    background-color: white;
+}
+.progressComponent .ui.vertical.tabular.menu .active.item{
+    background: transparent;
+    color: #03A9F4;
+    border-color: transparent;
+    border-bottom-color: #d4d4d5;
+}
+.progressComponent .ui.vertical.tabular.menu .item{
+    border-bottom-color: #d4d4d5;
+    padding: 3rem 2rem;
+}
+.progressComponent .ui.vertical.tabular.menu .item:last-child {
+    border-bottom-color: transparent;
+}
+.progressComponent .ui.segment.active.tab{
+    border-right: 1px solid #d4d4d5 !important;
+}

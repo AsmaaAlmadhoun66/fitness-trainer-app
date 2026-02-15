@@ -1,0 +1,48 @@
+.add-days-template .increment-btn , .add-days-template .decrement-btn {
+    font-weight: 600;
+    transition: all 0.4s ease-in-out;
+    background-color: #00a4f8 !important;
+    color: #fff;
+    border: 1px solid #00a4f8;
+    cursor: pointer;
+
+}
+.add-days-template .increment-btn:hover , .add-days-template .decrement-btn:hover {
+    background-color: #fff !important;
+    color: #00a4f8;
+    border: 1px solid #00a4f8;
+}
+
+.add-days-template .item-num {
+    background-color: #f3f5f6;
+    width: 50px;
+    height: 50px;
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.add-days-template .item-num.active {
+    background-color: #00a4f8;
+    color: #fff;
+}
+.add-days-template .item-num:hover {
+    background-color: #00a4f8;
+    color: #fff;
+}
+
+.add-days-template .slick-initialized .slick-slide   div {
+    margin: 0 5px;
+}
+.slick-slider{
+    padding: 0 30px;
+    width: 80%;
+    max-width: 80%;
+    margin: auto;
+}
+.slick-prev {
+    left: -2px !important;
+}

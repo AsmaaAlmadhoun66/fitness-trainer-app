@@ -1,0 +1,23 @@
+.notify-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.notify-container .icon {
+    font-size: 35px;
+    line-height: 1;
+    color:#42a1ef;
+    cursor: pointer;
+    position: relative;
+}
+
+.notify-container .icon .bell-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #c1272d;
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
